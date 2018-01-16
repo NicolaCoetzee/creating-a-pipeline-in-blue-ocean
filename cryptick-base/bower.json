@@ -1,0 +1,23 @@
+{
+  "name": "cryptick",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nolte Joubert <nolte@labs.epiuse.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "requirejs": "^2.3.5",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

@@ -1,0 +1,42 @@
+<div ng-controller="TickerController as ticker">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+                <h1 class="page-header"><span>{{ticker.model.pair.symbol}}</span>&nbsp;<span>{{ticker.model.pair.mid}}</span></h1>
+                <pre>HIGH {{ticker.model.pair.high}} &#9;LOW {{ticker.model.pair.low}} &#9;BID {{ticker.model.pair.bid}} &#9;ASK {{ticker.model.pair.ask}} &#9;LAST {{ticker.model.pair.lastPrice}} &#9;VOL {{ticker.model.pair.volume}}</pre>
+
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th><span>{{ticker.model.pair.low}}</span>Price</th>
+                                <th>Amount</th>
+                                <th>Timestamp</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1,001</td>
+                                <td>Lorem</td>
+                                <td>ipsum</td>
+                            </tr>
+                            <tr>
+                                <td>1,002</td>
+                                <td>amet</td>
+                                <td>consectetur</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--can make use of filers and piping here-->

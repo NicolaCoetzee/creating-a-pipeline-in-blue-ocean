@@ -1,0 +1,20 @@
+{
+    "name": "cryptick",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.3",
+        "css-loader": "^0.28.8",
+        "express": "^4.16.2",
+        "style-loader": "^0.19.1"
+    }
+}
